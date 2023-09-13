@@ -1,0 +1,73 @@
+/* setting default style for the page to reduce differences in layout among browsers */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Futura;
+    font-size: 25px;
+}
+
+/* game window style */
+
+#game-window {
+    background-color: #01893f;
+    width: 700px;
+    margin: 30px auto;
+    padding: 30px 0;
+}
+
+/* score board style */
+
+.score-board {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.board-label {
+    color: yellow;
+}
+
+.board-value {
+    color: white;
+    font-size: 40px;
+}
+
+#timer-value {
+    text-align: left;
+}
+
+#score-value {
+    text-align: right;
+}
+
+/* handling the positiong of the holes */
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.hole {
+    padding: 20px;
+}
+
+.hole img {
+    width: 70px;
+}
+
+/* reset button style */
+
+#reset-button {
+    display: block;
+    color: yellow;
+    text-align: center;
+    border: 1px solid yellow;
+    background: none;
+    border-radius: 10px;
+    padding: 5px 30px;
+    margin: 20px auto;
+}
+
+#reset-button:hover {
+    opacity: 60%;
+}
