@@ -1,5 +1,11 @@
 /* setting default style for the page to reduce differences in layout among browsers */
 
+@font-face {
+    font-family: Futura;
+    src: url('../images/Futura\ Book\ font.ttf') format("WOFF");
+    font-weight: 300;
+  }
+
 * {
     margin: 0;
     padding: 0;
